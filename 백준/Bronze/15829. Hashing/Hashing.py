@@ -9,4 +9,4 @@ s = input().strip()
 result = 0
 for i in range(n):
     result += (ord(s[i]) - 96) * 31**i
-print(result)
+print(result % 1234567891)
